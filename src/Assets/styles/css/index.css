@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #000;
+  --secondary-color: #f0f4f8;
+
+  --max-width: 1140px;
+}
