@@ -1,7 +1,12 @@
 import React from "react";
+import Dev from "../../Components/Home/Dev";
 
 const Intro = () => {
-  return <div>Intro</div>;
+  return (
+    <div>
+      <Dev />
+    </div>
+  );
 };
 
 export default Intro;
