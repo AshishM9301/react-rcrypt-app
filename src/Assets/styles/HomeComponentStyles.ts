@@ -1,29 +1,69 @@
 import styled from "styled-components";
 
-export const DevContainer = styled.div`
+export const IntroContainer = styled.div`
+  display: flex;
+  position: relative;
+`;
+
+export const DevIcon = styled.div`
   display: flex;
   cursor: default;
+  margin-top: 100px;
+  z-index: 0;
 `;
 
-export const DevWrapper = styled.div`
-  width: 100%;
+export const Titles = styled.div`
+  width: 445px;
+
+  top: 255px;
+  left: 54px;
+
+  position: absolute;
 `;
 
-export const DevIcon = styled.p`
+export const Title2 = styled.div`
+  display: flex;
+  cursor: default;
+  z-index: 1;
+
+  font-family: "Proxima Nova";
+  font-style: normal;
   font-weight: 700;
-  font-size: 300px;
-  line-height: 365px;
-  text-transform: uppercase;
+  font-size: 96px;
+  line-height: 117px;
+  /* identical to box height */
 
-  color: #000;
+  letter-spacing: -0.03em;
 
-  background: linear-gradient(rgba(19, 241, 150, 1), rgba(240, 244, 248, 0));
+  color: #ffffff;
+`;
 
-  -webkit-background-clip: text;
-  -webkit-text-stroke: 8px transparent;
+export const Title3 = styled.div`
+  font-family: "Dank Mono";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 47px;
+  letter-spacing: -0.14em;
 
-  -webkit-user-select: none; /* Safari */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* IE10+/Edge */
-  user-select: none;
+  color: #ffffff;
+`;
+
+export const P = styled.p`
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: #ffffff;
+
+  margin-top: 45px;
+`;
+
+export const ButtonContainer = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+
+  margin-top: 25px;
 `;

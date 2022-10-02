@@ -79,3 +79,9 @@
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: "Dank Mono";
+  src: url("Dank Mono Italic.otf");
+  font-weight: normal;
+  font-style: normal;
+}
