@@ -1,0 +1,95 @@
+import React from "react";
+
+const Diamond = () => {
+  return (
+    <svg
+      width="140"
+      height="256"
+      viewBox="0 0 140 256"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M57.2662 97.6373L0.566648 131.053L53.2915 0.19206L57.2662 97.6373Z"
+        fill="url(#paint0_radial_18_50)"
+      />
+      <path
+        d="M138.702 108.313C110.723 73.5234 53.597 2.51894 53.2915 0.19206L57.2662 97.6373L97.9841 102.975L138.702 108.313Z"
+        fill="url(#paint1_radial_18_50)"
+      />
+      <path
+        d="M57.2662 97.6373L0.566648 131.053L70.8785 154.039L138.702 108.313L97.9841 102.975L57.2662 97.6373Z"
+        fill="url(#paint2_radial_18_50)"
+      />
+      <path
+        d="M59.9453 113.065L86.1296 255.263L0.204149 148.196L59.9453 113.065Z"
+        fill="url(#paint3_radial_18_50)"
+      />
+      <path
+        d="M139.818 124.275L99.8815 118.67L59.9453 113.065L86.1296 255.263L139.818 124.275Z"
+        fill="url(#paint4_radial_18_50)"
+      />
+      <defs>
+        <radialGradient
+          id="paint0_radial_18_50"
+          cx="0"
+          cy="0"
+          r="1"
+          gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(15.5692 265.216) rotate(-60.7795) scale(392.23 234.54)"
+        >
+          <stop offset="0.525106" stop-color="white" />
+          <stop offset="0.937611" stop-color="#D9D9D9" />
+        </radialGradient>
+        <radialGradient
+          id="paint1_radial_18_50"
+          cx="0"
+          cy="0"
+          r="1"
+          gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(90.3927 142.519) rotate(129.042) scale(238.878 166.071)"
+        >
+          <stop offset="0.211253" stop-color="#A038B2" stop-opacity="0.89" />
+          <stop offset="0.879944" stop-color="#D9D9D9" />
+          <stop offset="1" stop-color="white" />
+        </radialGradient>
+        <radialGradient
+          id="paint2_radial_18_50"
+          cx="0"
+          cy="0"
+          r="1"
+          gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(52.7241 79.4003) rotate(76.3879) scale(299.572 200.854)"
+        >
+          <stop stop-color="#EBEBEB" />
+          <stop offset="1" />
+        </radialGradient>
+        <radialGradient
+          id="paint3_radial_18_50"
+          cx="0"
+          cy="0"
+          r="1"
+          gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(91.5684 197.169) rotate(-86.131) scale(194.212 117.269)"
+        >
+          <stop stop-color="#13F196" />
+          <stop offset="0.372917" stop-color="#77E5B8" />
+          <stop offset="0.951897" stop-color="white" />
+        </radialGradient>
+        <radialGradient
+          id="paint4_radial_18_50"
+          cx="0"
+          cy="0"
+          r="1"
+          gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(105.2 92.001) rotate(91.5534) scale(156.771 91.0017)"
+        >
+          <stop offset="0.536458" stop-color="#A038B2" />
+          <stop offset="1" stop-color="#13F196" />
+        </radialGradient>
+      </defs>
+    </svg>
+  );
+};
+
+export default Diamond;
