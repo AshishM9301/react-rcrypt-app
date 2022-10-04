@@ -205,3 +205,104 @@ export const StatsData = styled.p`
 
   color: #000000;
 `;
+
+const EcoSystemContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  position: relative;
+
+  margin-top: 150px;
+`;
+
+const EcoSystemTitle = styled.h1`
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 53px;
+  /* or 88% */
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+`;
+
+const EcoSystemData = styled.p`
+  margin-top: 50px;
+
+  width: 400px;
+
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: #ffffff;
+`;
+
+const CircleIcon = styled.div`
+  display: flex;
+  cursor: default;
+  z-index: 0;
+`;
+
+const ScaleGlobalContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 60vh;
+  position: relative;
+`;
+
+const ScaleGlobalIcon = styled.div`
+  display: flex;
+  cursor: default;
+  z-index: 0;
+`;
+
+const ScaleGlobalTitle = styled.div`
+  display: flex;
+`;
+
+const ScaleGlobalTitleNamedScale = styled.h1`
+  font-family: "Dank Mono";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 53px;
+  /* or 88% */
+
+  letter-spacing: -0.02em;
+
+  color: #d9d9d9;
+`;
+
+const ScaleGlobalTitleOtherElse = styled.h1`
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 53px;
+  /* or 88% */
+
+  letter-spacing: -0.02em;
+
+  color: #d9d9d9;
+`;
+
+export {
+  EcoSystemContainer,
+  CircleIcon,
+  EcoSystemTitle,
+  EcoSystemData,
+  ScaleGlobalContainer,
+  ScaleGlobalIcon,
+  ScaleGlobalTitle,
+  ScaleGlobalTitleNamedScale,
+  ScaleGlobalTitleOtherElse,
+};
